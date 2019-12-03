@@ -19,6 +19,7 @@ public class ExibeFrutas extends AppCompatActivity {
         setContentView(R.layout.activity_exibe_fruta);
 
         int id=getIntent().getExtras().getInt("id");
+        
 
         textViewCodigo=findViewById(R.id.textViewCodigo);
         textViewNome=findViewById(R.id.textViewNome);
